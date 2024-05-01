@@ -18,7 +18,7 @@ const SignUp = () => {
           password,
         },
       });
-      navigate('/');
+      navigate('/layout');
     } catch (error) {
       setErrorMessage('Invalid Email or Password');
     }
