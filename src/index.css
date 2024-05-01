@@ -18,3 +18,7 @@ form input {
   border: none;
   border-radius: 5px;
 }
+
+#game__container {
+  background-image: url("assets/PS5.jpg");
+}
