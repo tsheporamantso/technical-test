@@ -34,16 +34,34 @@ const SignUp = () => {
 
   return (
     <>
-      <h1>Sign up</h1>
-      { errorMessage ? <p className="text-red-600">{errorMessage}</p> : null}
-      <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Email" value={email} onChange={handleEmailChange} />
+      <h1 className="text-black uppercase font-bold text-center m-2">Sign up</h1>
+      {errorMessage ? <p className="text-red-600 text-center">{errorMessage}</p> : null}
+      <form
+        className="flex flex-col items-center p-12 w-3/12 rounded-3xl m-auto border-2 border-slate-300"
+        onSubmit={handleSubmit}
+      >
+        <input
+          type="text"
+          placeholder="Email"
+          value={email}
+          onChange={handleEmailChange}
+        />
         <br />
-        <input type="password" placeholder="Password" value={password} onChange={handlePasswordChange} />
+        <input
+          type="password"
+          placeholder="Password"
+          value={password}
+          onChange={handlePasswordChange}
+        />
         <br />
-        <button type="submit">Sign In</button>
+        <button
+          className="py-2 px-5 bg-blue-500 text-white border-none rounded-md"
+          type="submit"
+        >
+          Sign Up
+        </button>
         <br />
-        {/* <p><Link to="/">Sign Up</Link></p> */}
+        {/* <Link to="/">Sign In</Link> */}
       </form>
     </>
   );
