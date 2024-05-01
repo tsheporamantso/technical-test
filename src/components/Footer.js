@@ -12,7 +12,7 @@ const Footer = () => (
     </a>
     <div
       id="footer__socials"
-      className="flex justify-center items-center gap-6 mb-8"
+      className="flex justify-center items-center gap-4 mb-8"
     >
       <a href="facebook" target="blank" rel="noreferrer" aria-label="LinkedIn">
         <FaLinkedinIn />
