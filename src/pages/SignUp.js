@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-// import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const SignUp = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -18,7 +18,7 @@ const SignUp = () => {
           password,
         },
       });
-      // navigate('/');
+      navigate('/');
     } catch (error) {
       setErrorMessage('Invalid Email or Password');
     }
@@ -61,7 +61,9 @@ const SignUp = () => {
           Sign Up
         </button>
         <br />
-        {/* <Link to="/">Sign In</Link> */}
+        <p className="py-2 px-5 text-black border-2 border-slate-300 rounded-md">
+          <Link to="/">Sign In</Link>
+        </p>
       </form>
     </>
   );

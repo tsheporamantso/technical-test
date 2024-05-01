@@ -36,19 +36,42 @@ const SignIn = ({ setLoggedIn }) => {
 
   return (
     <>
-      <h1>Sign In</h1>
-      {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
-      {' '}
-      <form onSubmit={handleSubmit}>
-        <input className="mail-border" type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+      <h1 className="text-black uppercase font-bold text-center m-2">
+        Sign In
+      </h1>
+      {errorMessage ? (
+        <p className="text-red-600 text-center">{errorMessage}</p>
+      ) : null}
+      <form
+        className="flex flex-col items-center p-12 w-3/12 rounded-3xl m-auto border-2 border-slate-300"
+        onSubmit={handleSubmit}
+      >
+        <input
+          type="email"
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
         <br />
+        <input
+          type="password"
+          placeholder="Password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
         <br />
-        <input className="mail-border" type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
+        <button
+          className="py-2 px-5 bg-blue-500 text-white border-none rounded-md"
+          type="submit"
+        >
+          Sign In
+        </button>
         <br />
-        <br />
-        <button type="submit">Sign In</button>
-        <br />
-        <p><Link to="/signup" className="sign-up">Sign Up</Link></p>
+        <p className="py-2 px-4 text-black border-2 border-slate-300 rounded-md">
+          <Link to="/signup" className="sign-up">
+            Sign Up
+          </Link>
+        </p>
       </form>
     </>
   );

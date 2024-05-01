@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SignUp from './pages/SignUp';
 import Layout from './components/Layout';
-import Footer from './components/Footer';
 import SignIn from './pages/SignIn';
 
 const App = () => {
@@ -20,8 +19,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<SignIn setLoggedIn={setLoggedIn} />} />
         <Route path="/signup" element={<SignUp />} />
-        {loggedIn ? <Route path="/layout" element={<Layout />} /> : null}
-        <Route path="footer" element={<Footer />} />
+        {loggedIn ? (
+          <Route path="/layout" element={<Layout />} />
+        ) : null}
       </Routes>
     </Router>
   );
