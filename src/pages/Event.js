@@ -3,6 +3,9 @@ import EventCards from './EventCards';
 import react3 from '../assets/react3.jpg';
 import ruby from '../assets/ruby.png';
 import rails from '../assets/rails.jpg';
+import pslogo from '../assets/pslogo.png';
+import java from '../assets/java.jpg';
+import js from '../assets/js.jpg';
 
 const Event = () => (
   <div className="h-screen">
@@ -39,13 +42,13 @@ const Event = () => (
       <section className="flex flex-row gap-5 justify-center items-center mt-3 max-md:flex-col">
         <div>
           <EventCards img={react3} date="04 MAY 2024 10:00" title="THE DEVELOPMENT OF REACT JS" venue="Online Zoom" />
-          <EventCards img={ruby} date="04 MAY 2024 10:00" title="THE DEVELOPMENT OF RUBY" venue="Online Zoom" />
+          <EventCards img={java} date="04 MAY 2024 10:00" title="THE DEVELOPMENT OF RUBY" venue="Online Zoom" />
           <EventCards img={rails} date="04 MAY 2024 10:00" title="THE DEVELOPMENT OF RUBY" venue="Online Zoom" />
         </div>
         <div>
-          <EventCards img={react3} date="04 MAY 2024 10:00" title="THE DEVELOPMENT OF REACT JS" venue="Online Zoom" />
+          <EventCards img={pslogo} date="04 MAY 2024 10:00" title="GAME DEVELOPMENT SEMINAR" venue="Mandela Square" />
           <EventCards img={ruby} date="04 MAY 2024 10:00" title="THE DEVELOPMENT OF RUBY" venue="Online Zoom" />
-          <EventCards img={rails} date="04 MAY 2024 10:00" title="THE DEVELOPMENT OF RUBY" venue="Online Zoom" />
+          <EventCards img={js} date="04 MAY 2024 10:00" title="THE DEVELOPMENT OF RUBY" venue="Online Zoom" />
         </div>
       </section>
     </main>
