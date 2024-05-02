@@ -5,7 +5,7 @@ import { PiMathOperationsBold } from 'react-icons/pi';
 import { FaComputer } from 'react-icons/fa6';
 
 const LearningPortal = () => (
-  <div className="mt-5 h-screen flex flex-col">
+  <div className="mt-5 flex flex-col">
     <h1 className="m-5 border-2 border-slate-300 p-10 font-semibold text-4xl">LSG eLearning</h1>
     <div className="m-5 border-2 p-9 border-slate-300 flex gap-3 max-md:flex-col">
       <div className="w-10/12 max-md:w-full">
@@ -26,7 +26,7 @@ const LearningPortal = () => (
             <h2 className="text-xl">in the province</h2>
           </li>
           <div>
-            <ul className="text-5xl text-blue-300 flex gap-1 max-md:flex-col">
+            <ul className="text-5xl text-blue-300 flex gap-12 max-md:flex-col max-md:gap-8">
               <li className="border-2 border-blue-300 rounded-full p-1 bg-white max-md:rounded">
                 <MdOutlineScience />
               </li>
@@ -49,7 +49,6 @@ const LearningPortal = () => (
       <div className="border-2 border-slate-300 p-10 w-1/5 max-md:w-full">
         <p className="text-blue-600 text-2xl">Welcome to our 24/7 365 flexible, anytime, any place learning space.</p>
       </div>
-
     </div>
   </div>
 );

@@ -4,15 +4,23 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 import Game from '../pages/Game';
 import LearningPortal from '../pages/LearningPortal';
+import Event from '../pages/Event';
 
 const Layout = () => (
-  <div className="">
-    <NavBar />
-    <Game />
-    <LearningPortal />
-    <Footer />
+  <>
+    <nav>
+      <NavBar />
+    </nav>
+    <div className="h-screen">
+      <Game />
+      <LearningPortal />
+      <Event />
+    </div>
+    <footer>
+      <Footer />
+    </footer>
     <Outlet />
-  </div>
+  </>
 );
 
 export default Layout;
