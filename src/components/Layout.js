@@ -3,12 +3,14 @@ import { Outlet } from 'react-router-dom';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import Game from '../pages/Game';
+import LearningPortal from '../pages/LearningPortal';
 
 const Layout = () => (
-  <div>
+  <div className="flex flex-col h-full">
     <NavBar />
-    <Footer />
     <Game />
+    <LearningPortal />
+    <Footer />
     <Outlet />
   </div>
 );
