@@ -27,19 +27,19 @@ const LearningPortal = () => (
           </li>
           <div>
             <ul className="text-5xl text-blue-300 flex gap-1 max-md:flex-col">
-              <li className="border-2 border-blue-300 rounded-full p-1 bg-white">
+              <li className="border-2 border-blue-300 rounded-full p-1 bg-white max-md:rounded">
                 <MdOutlineScience />
               </li>
-              <li className="border-2 border-blue-300 rounded-full p-1 bg-white">
+              <li className="border-2 border-blue-300 rounded-full p-1 bg-white max-md:rounded">
                 <TbMathFunction />
               </li>
-              <li className="border-2 border-blue-300 rounded-full p-1 bg-white">
+              <li className="border-2 border-blue-300 rounded-full p-1 bg-white max-md:rounded">
                 <PiMathOperationsBold />
               </li>
-              <li className="border-2 border-blue-300 rounded-full p-1 bg-white">
+              <li className="border-2 border-blue-300 rounded-full p-1 bg-white max-md:rounded">
                 <TbMath1Divide2 />
               </li>
-              <li className="border-2 border-blue-300 rounded-full p-1 bg-white">
+              <li className="border-2 border-blue-300 rounded-full p-1 bg-white max-md:rounded">
                 <FaComputer />
               </li>
             </ul>
