@@ -26,3 +26,11 @@ form input {
 #learning__container {
   background-image: url("assets/educabg.webp");
 }
+
+#bar {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background-color: #f5f5f5;
+}

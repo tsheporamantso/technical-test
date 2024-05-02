@@ -4,7 +4,12 @@ const NavBar = () => (
   <nav className="bg-black">
     <div className="flex justify-between text-white items-center p-4 text-base">
       <h1 className="text-cyan-500 uppercase">Lesego</h1>
-      <ul className="flex gap-3">
+      <div className="lg:hidden cursor-pointer">
+        <span id="bar" />
+        <span id="bar" />
+        <span id="bar" />
+      </div>
+      <ul className="flex gap-3 max-md:hidden">
         <li className="">
           <a href="home">Home</a>
         </li>
