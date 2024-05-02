@@ -6,7 +6,7 @@ import Game from '../pages/Game';
 import LearningPortal from '../pages/LearningPortal';
 
 const Layout = () => (
-  <div className="flex flex-col h-full">
+  <div className="">
     <NavBar />
     <Game />
     <LearningPortal />
