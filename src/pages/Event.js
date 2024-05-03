@@ -2,7 +2,7 @@ import React from 'react';
 import react3 from '../assets/react3.jpg';
 import ruby from '../assets/ruby.png';
 import rails from '../assets/rails.jpg';
-import pslogo from '../assets/pslogo.png';
+// import pslogo from '../assets/pslogo.png';
 import java from '../assets/java.jpg';
 import js from '../assets/js.jpg';
 
@@ -28,13 +28,13 @@ const cards = [
     title: 'THE DEVELOPMENT OF RAILS',
     venue: 'Online Zoom',
   },
-  {
-    id: 4,
-    img: pslogo,
-    date: '04 MAY 2024 10:00',
-    title: 'THE DEVELOPMENT OF REACT PS5',
-    venue: 'Mandela Square',
-  },
+  // {
+  //   id: 4,
+  //   img: pslogo,
+  //   date: '04 MAY 2024 10:00',
+  //   title: 'THE DEVELOPMENT OF REACT PS5',
+  //   venue: 'Mandela Square',
+  // },
   {
     id: 5,
     img: ruby,
