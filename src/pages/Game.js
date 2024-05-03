@@ -8,7 +8,7 @@ const Game = () => (
       className="bg-cover bg-center bg-no-repeat h-screen max-md:bg-contain"
       id="game__container"
     >
-      <div className="flex items-center justify-between p-4 max-md:flex-col max-md:items-start">
+      <div className="flex items-center justify-between p-4 max-md:flex-col max-md:items-center">
         <div className="flex items-center gap-1">
           <img
             className="w-12 h-12 rounded-full"
