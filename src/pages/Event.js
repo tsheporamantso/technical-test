@@ -59,7 +59,7 @@ const Event = () => (
         <h2 className="text-blue-500">JOHANNESBURG 2024</h2>
       </div>
       <div>
-        <button className=" uppercase text-white py-3 px-6 rounded bg-green-700" type="button">Buy tickets</button>
+        <button className="hover:bg-blue-500 uppercase text-white py-3 px-6 rounded bg-green-700" type="button">Buy tickets</button>
       </div>
     </header>
     <main>
