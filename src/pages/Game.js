@@ -8,7 +8,7 @@ const Game = () => (
       className="bg-cover bg-center bg-no-repeat h-screen max-md:bg-contain"
       id="game__container"
     >
-      <div className="flex items-center justify-between p-4 max-md:flex-col max-md:items-start">
+      <div className="flex items-center justify-between p-4 max-md:flex-col max-md:items-center">
         <div className="flex items-center gap-1">
           <img
             className="w-12 h-12 rounded-full"
@@ -20,7 +20,7 @@ const Game = () => (
           </h2>
         </div>
         <button
-          className=" text-white py-2 px-10 border-2 bg-red-600 border-red-500 rounded-full max-md:mt-2"
+          className=" hover:bg-red-900 text-white py-2 px-10 border-2 bg-red-600 border-red-500 rounded-full max-md:mt-2"
           type="submit"
         >
           Join Now
