@@ -61,7 +61,7 @@ const SignIn = ({ setLoggedIn }) => {
         />
         <br />
         <button
-          className="py-2 px-5 bg-blue-500 text-white border-none rounded-md"
+          className="py-2 px-5 bg-blue-500 text-white border-none rounded-md hover:bg-green-500"
           type="submit"
         >
           Sign In
