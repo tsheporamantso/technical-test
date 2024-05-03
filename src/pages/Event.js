@@ -59,7 +59,12 @@ const Event = () => (
         <h2 className="text-blue-500">JOHANNESBURG 2024</h2>
       </div>
       <div>
-        <button className="hover:bg-blue-500 uppercase text-white py-3 px-6 rounded bg-green-700" type="button">Buy tickets</button>
+        <button
+          className="hover:bg-blue-500 uppercase text-white py-3 px-6 rounded bg-green-700"
+          type="button"
+        >
+          Buy tickets
+        </button>
       </div>
     </header>
     <main>
@@ -85,17 +90,21 @@ const Event = () => (
       </section>
       <section className="flex flex-row max-md:flex-col max-md:place-items-center">
         {cards.map((card) => (
-          <div key={card.id} className="flex flex-col border-2 rounded-xl p-1 m-10 w-1/2 h-1/2">
+          <div
+            key={card.id}
+            className="flex flex-col border-2 rounded-xl p-1 m-10 w-1/2 h-1/2"
+          >
             <img src={card.img} alt="" />
             <small className="text-slate-400 font-thin">{card.date}</small>
             <h2 className="font-medium">{card.title}</h2>
-            <p className="text-slate-600 text-sm font-extralight">{card.venue}</p>
+            <p className="text-slate-600 text-sm font-extralight">
+              {card.venue}
+            </p>
           </div>
         ))}
       </section>
     </main>
   </div>
-
 );
 
 export default Event;
