@@ -20,7 +20,7 @@ const Game = () => (
           </h2>
         </div>
         <button
-          className=" text-white py-2 px-10 border-2 bg-red-600 border-red-500 rounded-full max-md:mt-2"
+          className=" hover:bg-red-900 text-white py-2 px-10 border-2 bg-red-600 border-red-500 rounded-full max-md:mt-2"
           type="submit"
         >
           Join Now
