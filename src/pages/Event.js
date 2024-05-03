@@ -39,7 +39,7 @@ const Event = () => (
           </li>
         </ul>
       </section>
-      <section className="flex flex-row gap-5 justify-center items-center mt-3 max-md:flex-col">
+      <section className="flex flex-row justify-center items-center max-md:flex-col">
         <div>
           <EventCards img={react3} date="04 MAY 2024 10:00" title="THE DEVELOPMENT OF REACT JS" venue="Online Zoom" />
           <EventCards img={java} date="04 MAY 2024 10:00" title="THE DEVELOPMENT OF RUBY" venue="Online Zoom" />
