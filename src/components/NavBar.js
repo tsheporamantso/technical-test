@@ -4,7 +4,7 @@ const NavBar = () => (
   <nav className="bg-black">
     <div className="flex justify-between text-white items-center p-4 text-base">
       <h1 className="text-cyan-500 uppercase">Lesego</h1>
-      <div className="lg:hidden cursor-pointer">
+      <div className="lg:hidden md:hidden cursor-pointer">
         <span id="bar" />
         <span id="bar" />
         <span id="bar" />

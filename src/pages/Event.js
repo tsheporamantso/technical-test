@@ -10,10 +10,10 @@ import js from '../assets/js.jpg';
 const Event = () => (
   <div className="h-screen">
     <header className="flex justify-between p-5 max-md:flex-col max-md:gap-2">
-      <logo className="flex flex-col">
+      <div className="flex flex-col">
         <h1 className="text-blue-500">TECHSPO</h1>
         <h2 className="text-blue-500">JOHANNESBURG 2024</h2>
-      </logo>
+      </div>
       <div>
         <button className=" uppercase text-white py-3 px-6 rounded bg-green-700" type="button">Buy tickets</button>
       </div>
